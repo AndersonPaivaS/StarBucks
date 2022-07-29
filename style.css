@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450;
+    right: -500;
+    width: 1200px;
+    height: 1200px;
+    /*border-radius: 50%;
+    background-color: #017143;*/
+}
+
+.social-media {
+    position: absolute; 
+    left: 630px;
+    transform: translateY(-280%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.social-media img {
+    transform: scale(0.7);
+    filter: invert(1);
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.title-starBucks span {
+    color: #017143;
+}
+
+.texto-sobre h1 {
+    font-size: 70px;
+}
+
+.starbucks span {
+    color: blueviolet;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button {
+    border: 0;
+    font-weight: 700;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 60px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 620px);
+}
+
+
+
+
+
+
